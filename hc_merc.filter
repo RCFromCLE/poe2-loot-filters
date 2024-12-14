@@ -1,0 +1,130 @@
+# ==================================
+# Mercenary Loot Filter HC Defense Focus
+# Based on MENT's Filter Structure
+# ==================================
+
+# === Currency ===
+Show # All currency for crafting
+    Class Currency
+    MinimapIcon 0 Yellow Circle
+    PlayEffect Yellow
+    SetFontSize 45
+    SetTextColor 255 255 255 250
+    SetBackgroundColor 0 0 0 250
+
+# === Defensive Base Types ===
+Show # Energy Shield/Evasion Base
+    BaseType "Explorer"
+    SetFontSize 45
+    SetTextColor 30 144 255 250  # Bright Blue
+    SetBorderColor 0 128 255 250
+    PlayEffect Blue
+    MinimapIcon 1 Blue Circle
+
+Show # Armour Bases
+    BaseType "Sabatons"
+    SetFontSize 45
+    SetTextColor 255 128 0 250  # Orange
+    SetBorderColor 255 128 0 250
+    PlayEffect Yellow
+    MinimapIcon 1 Yellow Circle
+
+Show # Class-Based Defense Items
+    Class "Body Armour" "Helmet" "Gloves" "Boots"
+    SetFontSize 45
+    SetTextColor 0 255 0 250  # Green
+    SetBorderColor 0 255 0 250
+    PlayEffect Green
+    MinimapIcon 1 Green Circle
+
+# === Mercenary Core Items ===
+Show # Crossbows
+    BaseType "Crossbow"
+    MinimapIcon 0 Red Star
+    PlayEffect Red
+    SetFontSize 50
+    SetTextColor 255 255 255 250
+    SetBackgroundColor 150 0 0 200
+    SetBorderColor 255 0 0 250
+
+Show # Core Skills
+    Class "Skill Gems"
+    BaseType "Permafrost Bolts" "Explosive Shot" "Flash Grenade" "Cluster Grenade" "Galvanic Shards" "High Velocity Rounds" "Explosive Grenade"
+    MinimapIcon 0 Blue Circle
+    PlayEffect Blue
+    SetFontSize 50
+    SetTextColor 0 150 255 250
+    SetBackgroundColor 0 0 60 200
+    SetBorderColor 0 0 255 250
+
+Show # Support Gems
+    Class "Support Gems"
+    BaseType "Frostfire" "Primal Armament" "Concentrated Effect" "Eternal Flame" "Searing Flame" "Glaciation" "Deep Freeze" "Ice Bite" "Wildfire" "Nimble Reload" "Brutality" "Scattershot" "Double Barrel" "Execute" "Lightning Infusion" "Pierce"
+    MinimapIcon 0 Blue Diamond
+    PlayEffect Blue
+    SetFontSize 45
+    SetTextColor 0 150 255 250
+    SetBorderColor 0 0 255 250
+
+# === Defensive Equipment ===
+Show # Rare Items
+    Rarity Rare
+    Class "Body Armour" "Helmet" "Gloves" "Boots" "Shield"
+    SetFontSize 45
+    SetTextColor 255 255 119 250
+    SetBorderColor 255 255 0 250
+    MinimapIcon 2 Yellow Diamond
+
+Show # Magic Items with Quality
+    Rarity Magic
+    Quality > 0
+    Class "Body Armour" "Helmet" "Gloves" "Boots" "Shield"
+    SetFontSize 40
+    SetTextColor 136 136 255 250
+    SetBorderColor 0 0 255 250
+
+# === Survival Gear ===
+Show # All jewelry for resistances
+    Class "Rings" "Amulets" "Belts"
+    MinimapIcon 0 Red Moon
+    SetTextColor 231 180 120
+    SetBackgroundColor 0 0 0 250
+    SetBorderColor 250 50 100 250
+    SetFontSize 45
+
+Show # Life flasks
+    Class "Life Flasks"
+    SetFontSize 40
+    SetTextColor 200 0 0 150
+    SetBackgroundColor 0 0 0 250
+
+Show # Mana flasks
+    Class "Mana Flasks"
+    SetFontSize 40
+    SetTextColor 0 40 222 170
+    SetBackgroundColor 0 0 0 250
+
+# === Special Items ===
+Show # All uniques
+    Rarity Unique
+    SetFontSize 50
+    PlayEffect Purple
+    SetTextColor 255 128 0 250
+    SetBorderColor 255 0 255 250
+    MinimapIcon 0 Purple Star
+
+Show # Charms
+    Class Charms
+    SetFontSize 40
+    SetBorderColor 255 255 255 250
+    PlayEffect White
+
+# === Quality Items ===
+Show # Any quality items
+    Quality > 0
+    SetFontSize 40
+    SetTextColor 255 255 255 250
+    SetBorderColor 255 255 255 250
+
+# Hide rest
+Hide
