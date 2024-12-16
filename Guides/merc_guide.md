@@ -1,5 +1,7 @@
 # Path of Exile 2 Mercenary Build Guide
 
+#### Based on https://www.youtube.com/watch?v=2XfYrJp87mI&t=448s&ab_channel=NizarGG
+
 ## Table of Contents
 
 1. [Leveling Guide](#leveling-guide)
